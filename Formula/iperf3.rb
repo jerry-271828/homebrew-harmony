@@ -1,15 +1,15 @@
 class Iperf3 < Formula
   desc "Update of iperf: measures TCP, UDP, and SCTP bandwidth"
   homepage "https://github.com/esnet/iperf"
-  url "https://github.com/jerry-271828/iperf/archive/refs/tags/3.21-ohos.3.tar.gz"
-  version "3.21-ohos.3"
-  sha256 "f15296f8ce1bc634ff1acc305701b59d5fa92b2b07e56a2c6a3815e549ea1e7d"
+  url "https://github.com/jerry-271828/iperf/archive/refs/tags/3.21-ohos.4.tar.gz"
+  version "3.21-ohos.4"
+  sha256 "fceef3f6c3ac12cbb6caf7e150bfb3481cdd1a0372c9785fa59ddc6ad7deeae9"
   license "BSD-3-Clause"
   compatibility_version 1
 
   bottle do
-    root_url "https://github.com/jerry-271828/iperf/releases/download/3.21-ohos.3"
-    sha256 cellar: :any_skip_relocation, arm64_ohos: "dce0296a0692a106eafee7a621f0066ab7750815740d987abb197c126c8bebc7"
+    root_url "https://github.com/jerry-271828/iperf/releases/download/3.21-ohos.4"
+    sha256 cellar: :any_skip_relocation, arm64_ohos: "8937e036b1f61d92839c6c932169ebcd7bf89b09e2191882fc1c3a3ff3880a50"
   end
 
   # bottle 由 GitHub Actions 交叉编译产出（static-pie 全静态、无 OpenSSL 认证

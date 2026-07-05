@@ -13,4 +13,4 @@ brew install jerry-271828/harmony/iperf3
 
 | Formula | 版本 | 说明 |
 | ------- | ---- | ---- |
-| iperf3 | 3.21-ohos.3 | static-pie 全静态二进制，bottle 由 [iperf 仓库的 GitHub Actions](https://github.com/jerry-271828/iperf/blob/master/.github/workflows/build-ohos.yml) 交叉编译产出，链接期已代码签名（鸿蒙 PC 要求 PIE + 有效签名，二者齐备）。不含 OpenSSL 认证（`--username`/`--rsa-*` 不可用），其余功能完整。 |
+| iperf3 | 3.21-ohos.4 | static-pie 全静态二进制，bottle 由 [iperf 仓库的 GitHub Actions](https://github.com/jerry-271828/iperf/blob/master/.github/workflows/build-ohos.yml) 交叉编译产出，链接期已代码签名（鸿蒙 PC 要求 PIE + 有效签名，二者齐备）。不含 OpenSSL 认证（`--username`/`--rsa-*` 不可用），其余功能完整。 |
